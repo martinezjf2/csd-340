@@ -10,7 +10,6 @@ p {
     font-weight: 400;
     line-height: 1.4em;
     font-family: 'Quattrocento' Georgia, "Times New Roman" serif; 
-
 }
 
 
@@ -48,7 +47,6 @@ address {
  
     font-family: 'Quattroceno', Georgia, "Times New Roman", serif;
     text-align: center;
-
 }
 
 a {
@@ -63,7 +61,6 @@ a:hover {
     /* When a user hovers over the website link, apply an underline to the text and give it a background color of #D6A800; */
     text-decoration: underline;
     background-color: #d6a800;
-
 }
 
 a:visited {
@@ -75,12 +72,12 @@ a:visited {
 .intro {
     /* Give the CSS “intro” class a text-indent of .2em */
     text-indent: .2em;
+    /* ********** KEY THING TO NOTE: The instructions were specific to just .2em, this only showed a small indentation, was thinking to put atleast 1em */
 }
 
 .sentence {
     /* Apply a font-style of italic to the CSS sentence class */
     font-style: italic;
-
 }
 
 
