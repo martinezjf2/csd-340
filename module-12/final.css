@@ -1,0 +1,170 @@
+html {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0 auto;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+header {
+    background-color: #3c275a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #4F3674;
+    border-bottom: 15px solid #D6A800;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: transform .2s;
+}
+
+.navbar a:hover {
+    background-color: #D6A800;
+    color: #4F3674;
+    transform: scale(1.1) 
+}
+
+h1 {
+    font-weight: 400;
+    text-align: center;
+}
+
+.hobbies {
+    min-height: 250px;
+}
+
+.experience {
+    min-height: 250px;
+}
+
+.contact-container {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.grid-3-col {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 95%;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.title {
+    text-align: center;
+    font-size: 2em;
+    color: #4F3674;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.content {
+    padding: 10px 16px;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.form-field {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.btn {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 15px 32px;
+    color: #000;
+    justify-content: center;
+    
+}
+
+.input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    background-color: #4F3674;
+    color: #fff;
+    transition: transform .2s;
+}
+
+.btn-primary:hover {
+    background-color: #D6A800;
+    color: #4F3674;
+    transform: scale(1.2) 
+}
+
+.full-width {
+    width: 100%;
+}
+
+.container {
+    margin: 0 10px;
+}
+
+img {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 10px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: transform .2s;
+}
+
+img:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transform: scale(1.2) 
+    /* Resource: https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CSD 340 Web Development with HTML and CSS</title>
+        <link rel="stylesheet" type="text/css" href="final.css">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header id="home">
+            CSD 340 Web Development with HTML and CSS
+        </header>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#experience">Experience</a>
+        </nav>
+        <div class="container">
+            <div class="hobbies" id="hobbies">
+                <h1>Hobbies</h1>
+                <div class="grid-3-col">
+                    <div class="card">
+                        <div class="title">
+                            Music
+                        </div>
+                        <img src="images/piano.png" alt="Piano">
+                        <div class="content">
+                            Enjoy playing instruments such as the piano and guitar. I started out when I was 8 years old
+                            and continued to progress by learning more instrumnents. I am currently working on Live
+                            Performance for Church Worship Ministry for the spanish community. I enjoy every second of
+                            it by learning new ways to make the community better.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="title">
+                            Programming
+                        </div>
+                        <img src="images/programming.png" alt="Piano">
+                        <div class="content">
+                            Problem solving is one of the skills that I enjoy. Programming has contirbuted to breaking
+                            down the bigger objectives into smaller parts in order to achieve them. I have always loved
+                            a good challenge and it is a great feeling to accomplish it.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="title">
+                            Travel
+                        </div>
+                        <img src="images/travel.png" alt="Piano">
+                        <div class="content">
+                            I enjoy to travel to new places. I enjoy learning about new cultures. One of my goals is to
+                            learn italian and be fluent to travel to Italy.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br /><br />
+            <div class="experience" id="experience">
+                <h1>Experience</h1>
+                <div class="grid-3-col">
+                    <div class="card">
+                        <div class="title">
+                            Ruby on Rails
+                        </div>
+                        <img src="images/rails.png" alt="Piano">
+                        <div class="content">
+                            <a href="https://guild-education-replica.herokuapp.com">Guild Education Replica</a> was one of the first Ruby on Rails Full stack application I have created. Using a database management system such as PostgreSQL to save users' data such as their email and passwords when they sign up. 
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="title">
+                            Javascript
+                        </div>
+                        <img src="images/javascript.png" alt="Piano">
+                        <div class="content">
+                            During my time at Flatiron School, I have learned to use frameworks that Javascripts would allow us to create custom routes such as Express.js. Learning this allowed me to create this application <a href="https://martinez-blog.herokuapp.com">Daily Journal </a> to allow users to create journals about their day to day lives.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="title">
+                            React
+                        </div>
+                        <img src="images/react.png" alt="Piano">
+                        <div class="content">
+                            React framework from Javascript allows users to create an application by creating components for each element of the page. The <a href="https://quiz-app-omega-henna.vercel.app">Music Quiz </a> I developed shows how fast is the framework to render elements compared to other frameworks like Ruby on Rails.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-container">
+                <div class="card full-width">
+                    <div class="title">
+                        Contact Form
+                    </div>
+                    <div class="content">
+                        <div class="form">
+                            <div class="form-field">
+                                <label for="txtFirstName">First name: </label>
+                                <input type="text" id="txtFirstName" class="input" name="txtFirstName" />
+                            </div>
+                            <div class="form-field">
+                                <label for="txtLastName">Last name: </label>
+                                <input type="text" id="txtLastName" class="input" name="txtLastName" />
+                            </div>
+                            <div class="form-field">
+                                <label for="txtEmail">Email: </label>
+                                <input type="text" id="txtEmail" class="input" name="txtEmail" />
+                            </div>
+                            <div class="form-field center-button">
+                                <button type="submit" class="btn btn-primary full-width">Send Message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
